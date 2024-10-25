@@ -1,12 +1,16 @@
 
 # Amazon Price Tracker
 
-This project is a Python script to track the price of a specified Amazon product and notify you via email when the price drops below a defined threshold.
+This project is a Python script designed to monitor the price of a specified Amazon product
+and notify the user via email when the price drops below a defined threshold. The script
+leverages web scraping with BeautifulSoup to extract the price from the product page, and
+it uses SMTP to send email notifications.
+
 
 ## Features
 - Scrapes Amazon product page to retrieve the current price and product title.
 - Sends an email alert if the price falls below £100.
-- Designed to run periodically as a scheduled task (e.g., using `cron` or Task Scheduler).
+
 
 ## Requirements
 
@@ -23,5 +27,5 @@ This project is a Python script to track the price of a specified Amazon product
 Clone this repository to your local machine.
 
 ```bash
-git clone <repository-url>
-cd <repository-folder>
+git clone https://github.com/Dimplektech/Amazon-Price-Tracker.git
+
